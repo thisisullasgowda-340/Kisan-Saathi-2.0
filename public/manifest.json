@@ -1,0 +1,18 @@
+{
+  "short_name": "KisanSaathi",
+  "name": "KisanSaathi - Offline AI Crop Disease Scanner",
+  "description": "Smarter Farming. Healthier Crops. Better Harvests. Offline AI Crop Disease Scanner for Farmers.",
+  "icons": [
+    {
+      "src": "/leaf-icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#F8FAF5",
+  "theme_color": "#2E7D32",
+  "display": "standalone",
+  "orientation": "portrait"
+}

@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #F8FAF5;
+    color: #1E293B;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Custom smooth scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+.kisan-card {
+  @apply bg-white rounded-2xl border border-slate-200/80 shadow-sm transition-all duration-200;
+}
+
+.kisan-btn-primary {
+  @apply inline-flex items-center justify-center font-medium bg-[#2E7D32] hover:bg-[#1B5E20] text-white px-5 py-2.5 rounded-xl transition-colors shadow-sm disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+.kisan-btn-secondary {
+  @apply inline-flex items-center justify-center font-medium bg-[#A5D6A7]/30 hover:bg-[#A5D6A7]/50 text-[#1B5E20] border border-[#A5D6A7]/60 px-4 py-2 rounded-xl transition-colors;
+}
+
+.kisan-btn-outline {
+  @apply inline-flex items-center justify-center font-medium bg-white hover:bg-slate-50 text-slate-700 border border-slate-300 px-4 py-2 rounded-xl transition-colors;
+}
